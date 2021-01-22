@@ -5,7 +5,7 @@ Adapts a Userscript and packages it as an extension for ease of installation.
 # Link to Extension on Chrome Web Store:
 https://chrome.google.com/webstore/detail/d2l-tweaks/eeignihdnacjbajmfelmmnjlfahiddcj
 
-The UserScript is taken from https://github.com/csm123199/d2l-tweaks and packaged as an extension.
+The UserScript is taken from https://github.com/csm123199/d2l-tweaks and packaged as an extension under The Unlicense License.
 
 
 
