@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Adds a few QoL tweaks to Desire 2 Learn (D2L), an online educational teaching and organization platform.",
   "manifest_version": 2,
-  "homepage_url": "https://github.com/csm123199/d2l-tweaks",
+  "homepage_url": "https://github.com/seaty6/D2L-Tweaks_Extension",
   "icons": {
     "16": "images/16.png",
     "32": "images/32.png",
