@@ -42,10 +42,15 @@ class ContentPage {
         this.naiveAssetURL = newURL(`/d2l/api/le/1.34/${cls}/content/topics/${asset}/file`);
         this.officeURL = null;
         this.interactiveURL = this._interactiveURL();
-        this.downloadableURL = this._downloadableURL();
+		this.downloadableURL = this._downloadableURL();
         this._naiveAssetMeta = undefined;
         this.replacedContent = false;
         console.log('Header dropdown actions: ', this.headerDropdownActions());
+		//Kaltura breaks attempting to load mp4 nativley, add exception if detected
+		var kalturaCheck = this._interactiveURL();
+		if (kalturaCheck.toString().toLowerCase().indexOf("kaltura") != -1){
+			throw new Error("Kaltura Detected");
+		}
     }
     static initialize() {
         let ptype = getPageType();
