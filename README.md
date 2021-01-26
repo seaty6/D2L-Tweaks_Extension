@@ -5,12 +5,16 @@ Adapts a Userscript and packages it as an extension for ease of installation.
 # Link to Extension on Chrome Web Store:
 https://chrome.google.com/webstore/detail/d2l-tweaks/eeignihdnacjbajmfelmmnjlfahiddcj
 
-The UserScript is taken from https://github.com/csm123199/d2l-tweaks and packaged as an extension under The Unlicense License.
+The UserScript was originally taken from https://github.com/csm123199/d2l-tweaks and packaged as an extension under The Unlicense License.
 
+## Changelog
+ 0.0.1 - Initial Version
+ 
+ 0.0.1.1 - Added icons/assets for extension, proper manifest, and other extension related files for publishing
+ 
+ 0.0.1.2 - Prevented any media served from Kultura from being touched by the extension, as the mp4 must be played with the proprietary players or it will not load. 
 
-
-Relevant sections from [csm123199/d2l-tweaks](https://github.com/csm123199/d2l-tweaks):
-
+## Relevant sections from [csm123199/d2l-tweaks](https://github.com/csm123199/d2l-tweaks):
 > # D2L Tweaks
 > 
 > Adds a few Quality of Life tweaks to the online educational platform
